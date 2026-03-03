@@ -4,6 +4,8 @@ namespace Irbis.PhDThesis.Math.Cryptanalysis.KnownPlaintext;
 
 /// <summary>
 /// XOR для byte[] (GF(2) на уровне бит).
+/// Xor с новым массивом.
+/// XorInPlace запись в передаваемый target.
 /// </summary>
 public static class ByteXor
 {

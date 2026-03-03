@@ -1,6 +1,6 @@
 ﻿namespace Irbis.PhDThesis.Math.Cryptanalysis.KnownPlaintext;
 
 /// <summary>
-/// Одна пара (plaintext, ciphertext) одного блока фиксированного размера.
+/// Пара plaintext и ciphertext.
 /// </summary>
 public sealed record PlainCipherPair(byte[] Plaintext, byte[] Ciphertext);

@@ -7,7 +7,6 @@ namespace Irbis.PhDThesis.Math.Cryptanalysis.KnownPlaintext;
 
 /// <summary>
 /// Генератор "перехваченных" пар (P,C) для тестирования known-plaintext атаки.
-/// В реальной атаке у тебя вместо этого будут реальные пары, добытые другим способом.
 /// </summary>
 public static class PairsGenerator
 {

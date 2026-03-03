@@ -4,7 +4,7 @@ namespace Irbis.PhDThesis.Math.Cryptanalysis.KnownPlaintext;
 
 /// <summary>
 /// Бинарная матрица над GF(2) в виде bool[n][n] (строки).
-/// Здесь: инверсия Гаусс–Жорданом и умножения.
+/// Здесь инверсия Гаусс–Жорданом и умножения.
 /// </summary>
 public static class Gf2Matrix
 {

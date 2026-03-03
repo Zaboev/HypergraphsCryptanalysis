@@ -592,12 +592,12 @@ void TestKnownPlaintextAttack()
     var model = KnownPlaintextRecoverer.Recover(pairs, n, smallBlockSizeBytes);
 
     KnownPlaintextAttackReporter.PrintReport(
-    pairs: pairs,
-    model: model,
-    pairIndexToShow: 10,      // какую пару показать
-    traceVertices: 8,         // для скольких вершин показать формулу XOR
-    maxTermsToShow: 20,       // сколько индексов C'[j] печатать (остальное "...")
-    maxVerticesToPrint: 16    // сколько вершин печатать в plaintext/ciphertext
+    pairs,
+    model,
+    pairIndexToShow: 10,
+    verticesToPrint: 8,         // сколько вершин печатать
+    traceForVertexIndex: 0,      // для какой вершины показать XOR-формулу (можно -1 чтобы убрать)
+    maxTermsToShow: 12           // сколько индексов C[...] показывать
 );
 
     // 3) дешифруем любой шифртекст без ключа
